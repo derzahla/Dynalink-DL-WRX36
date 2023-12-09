@@ -51,5 +51,5 @@ jobs:
                 repo_token: "${{ secrets.GITHUB_TOKEN }}"
                 prerelease: false
                 title: "Dynalink DL-WRX36 Firmware ${{ env.NOW }}"
-                automatic_release_tag: "v1"
+                automatic_release_tag: "v3"
                 files: firmware/*
