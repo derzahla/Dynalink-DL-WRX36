@@ -2,7 +2,7 @@ name: Build Dynalink DL-WRX36 Firmware
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 18 * * *'
+    - cron: '01 20 * * *'
 
 jobs:
     build:
