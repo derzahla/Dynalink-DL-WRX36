@@ -25,7 +25,7 @@ jobs:
                uses: ncipollo/release-action@v1.14.0
                with:
                  allowUpdates: true
-                 prerelease: false
+                 makeLatest: true
                  name: Dynalink DL-WRX36 Firmware ${{ env.NOW }}
                  tag: v1-${{ env.NOW }}
                  token: ${{ secrets.GITHUB_TOKEN }}
