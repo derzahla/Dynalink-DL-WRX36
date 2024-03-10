@@ -14,6 +14,7 @@ jobs:
                run: |
                 wget https://downloads.openwrt.org/snapshots/targets/qualcommax/ipq807x/openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64.tar.xz
                 tar -xf openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64.tar.xz
+                cp -rf key/* openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64/
                 mkdir -p openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64/files/etc/config
                 cp .github/workflows/dockerd openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64/files/etc/config
                 cd openwrt-imagebuilder-qualcommax-ipq807x.Linux-x86_64
